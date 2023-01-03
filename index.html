@@ -352,6 +352,7 @@
           rows="5"
         ></textarea>
       </div>
+<br>
 
       <div class="row">
         <h4
@@ -409,6 +410,14 @@
             placeholder="Cargo del Entrevistado"
             required
           />
+          <br>
+          <textarea style="border-top: white; border-right: white; border-left: white;" name="" id="" cols="30" rows="1"></textarea>
+          <br>
+          <label for="name">
+            <strong>Firma Auditor: </strong>
+          </label>
+
+
         </div>
 
         <div class="col-md-4">
@@ -438,16 +447,30 @@
             placeholder="CI Entrevistado"
             required
           />
+          <br><br><br><br>
+          <textarea style="border-top: white; border-right: white; border-left: white;" name="" id="" cols="30" rows="1" ></textarea>
+          <br>
+          <label for="name">
+            <strong>Firma Entrevistado: </strong>
+          </label>
         </div>
       </div>
       <div class="col-md-2"></div>
     </form>
-    <input
+    <br>
+
+    <div class="text-center" >
+      <input
       type="submit"
       class="btn btn-primary"
       onclick="GeneratePdf();"
       value="Generar Pdf"
     />
+
+    </div>
+    <br>
+
+    
 
     <script>
       // Function to GeneratePdf
