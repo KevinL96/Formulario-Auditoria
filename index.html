@@ -33,87 +33,417 @@
 
     <!-- Form encrypted as text -->
     <form id="form-print" enctype="text/plain" class="form-control">
-      <h4 style="background-color: #5f57eb; color: aliceblue">Datos empresa</h4>
       <div class="row">
-		<div class="col-md-6">
-        <label for="name">
-          <strong>Nombre Empresa: </strong>
-        </label>
-        <input
-          class="form-control"
-          type="text"
-          id="name"
-          name="Name"
-          placeholder="Ingresar el Nombre de la empresa"
-          required
-        />
+        <h4 style="background-color: #5f57eb; color: aliceblue">
+          Datos Institucion
+        </h4>
+        <div class="col-md-6">
+          <label for="name">
+            <strong>Nombre Empresa: </strong>
+          </label>
+          <input
+            class="form-control"
+            type="text"
+            id="name"
+            name="Name"
+            placeholder="Ingresar el Nombre de la empresa"
+            required
+          />
 
+          <label for="name">
+            <strong>Giro: </strong>
+          </label>
+          <input
+            class="form-control"
+            type="text"
+            id="giro"
+            name="giro"
+            placeholder="Clasificacion de la empresa"
+            required
+          />
+        </div>
+
+        <div class="col-md-6">
+          <label for="name">
+            <strong>RUC: </strong>
+          </label>
+          <input
+            class="form-control"
+            type="number"
+            id="ruc"
+            name="ruc"
+            placeholder="RUC"
+            required
+          />
+        </div>
+      </div>
+      <br />
+
+      <div class="row">
+        <h4 style="background-color: #5f57eb; color: aliceblue">
+          Identificacion de Hardware
+        </h4>
+        <div class="col-md-6">
+          <label for="name">
+            <strong>Nombre Equipo: </strong>
+          </label>
+          <input
+            class="form-control"
+            type="text"
+            id="nameeq"
+            name="Nameeq"
+            placeholder="Ingrese el Nombre del Equipo"
+            required
+          />
+
+          <label for="name">
+            <strong>id Equipo: </strong>
+          </label>
+          <input
+            class="form-control"
+            type="number"
+            id="giro"
+            name="giro"
+            placeholder="ID"
+            required
+          />
+          <br />
+          <label for="name">
+            <strong>Año de Fabricacion : </strong>
+          </label>
+          <input
+            class="form-control"
+            type="number"
+            id="giro"
+            name="giro"
+            placeholder="año"
+            required
+          />
+          <br />
+          <label for="name">
+            <strong>Memoria de Disco : </strong>
+          </label>
+
+          <input
+            class="form-control"
+            type="number"
+            id="giro"
+            name="giro"
+            placeholder="Memoria en GB"
+            required
+          />
+          <br />
+          <label for="name">
+            <strong>Memoria RAM : </strong>
+          </label>
+
+          <input
+            class="form-control"
+            type="number"
+            id="giro"
+            name="giro"
+            placeholder="Memoria en GB"
+            required
+          />
+          <br />
+
+          <!-- <label for="selectdisco">Cantidad de Disco duro</label>
+          <select name="selectdisco" id="">
+            <option value="50GB">50GB</option>
+            <option value="100GB">100GB</option>
+          </select> -->
+
+          <br />
+          <label for="name">
+            <strong>Sistema Operativo : </strong>
+          </label>
+
+          <input
+            class="form-control"
+            type="number"
+            id="giro"
+            name="giro"
+            placeholder="SO"
+            required
+          />
+
+          <br />
+          <label for="name">
+            <strong>Numero de Serie : </strong>
+          </label>
+
+          <input
+            class="form-control"
+            type="number"
+            id="giro"
+            name="giro"
+            placeholder="Ingrese el numero de Serie "
+            required
+          />
+          <br />
+          <label for="name">
+            <strong>Sistema Operativo : </strong>
+          </label>
+
+          <input
+            class="form-control"
+            type="number"
+            id="giro"
+            name="giro"
+            placeholder="SO"
+            required
+          />
+        </div>
+
+        <div class="col-md-6">
+          <label for="name">
+            <strong>Laboratorio al que pertenece: </strong>
+          </label>
+          <input
+            class="form-control"
+            type="text"
+            id="giro"
+            name="giro"
+            placeholder="Escriba el Laboratorio "
+            required
+          />
+          <br /><br /><br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <label for="name">
+            <strong>Marca: </strong>
+          </label>
+          <input
+            class="form-control"
+            type="text"
+            id="giro"
+            name="giro"
+            placeholder="Marca"
+            required
+          />
+
+          <label for="name">
+            <strong>Modelo del equipo: </strong>
+          </label>
+          <input
+            class="form-control"
+            type="text"
+            id="giro"
+            name="giro"
+            placeholder="Modelo"
+            required
+          />
+          <br />
+          <label for="name">
+            <strong>Fabricante: </strong>
+          </label>
+          <input
+            class="form-control"
+            type="text"
+            id="giro"
+            name="giro"
+            placeholder="Fabricante"
+            required
+          />
+          <br />
+          <label for="name">
+            <strong>Procesador: </strong>
+          </label>
+          <input
+            class="form-control"
+            type="text"
+            id="giro"
+            name="giro"
+            placeholder="Escriba el procesador del equipo "
+            required
+          />
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <h4 style="background-color: #5f57eb; color: aliceblue">
+          Manejo del laboratorio
+        </h4>
+        <br />
         <label for="name">
-          <strong>Nombre: </strong>
+          <strong
+            >Existe una tevision periodica del cumplimiento de mantenimiento
+            preventivos ?:
+          </strong>
         </label>
-        <input
-          class="form-control"
-          type="text"
-          id="name"
-          name="Name"
-          placeholder="Ingresar Nombre"
-        />
+
+        <textarea
+          value="Describa su respuesta"
+          name=""
+          id=""
+          cols="10"
+          rows="5"
+        ></textarea>
+        <br />
+        <br />
+      </div>
+      <br />
+
+      <div class="row">
+        <label for="name">
+          <strong
+            >Quien autoriza la compra de nuevos equipos , asi como licencias y
+            actualizacion de hardware y software ?:
+          </strong>
+        </label>
+
+        <textarea
+          value="Describa su respuesta"
+          name=""
+          id=""
+          cols="10"
+          rows="5"
+        ></textarea>
+      </div>
+      <div class="row">
+        <label for="name">
+          <strong
+            >Que area se encarga de la asignacion de horarios de uso de
+            laboratorio?
+          </strong>
+        </label>
+
+        <textarea
+          value="Describa su respuesta"
+          name=""
+          id=""
+          cols="10"
+          rows="5"
+        ></textarea>
+      </div>
+      <div class="row">
+        <label for="name">
+          <strong
+            >Como se da a conocer los horarios establecidos de uso del
+            laboratorio?
+          </strong>
+        </label>
+
+        <textarea
+          value="Describa su respuesta"
+          name=""
+          id=""
+          cols="10"
+          rows="5"
+        ></textarea>
+      </div>
+      <div class="row">
+        <label for="name">
+          <strong
+            >Como se verifica el cumplimiento del horario de uso del laboratorio
+            ?
+          </strong>
+        </label>
+
+        <textarea
+          value="Describa su respuesta"
+          name=""
+          id=""
+          cols="10"
+          rows="5"
+        ></textarea>
       </div>
 
-	  <div class="col-md-6">
-		<label for="name">
-          <strong>Nombre Empresa: </strong>
-        </label>
-        <input
-          class="form-control"
-          type="text"
-          id="name"
-          name="Name"
-          placeholder="Ingresar el Nombre de la empresa"
-          required
-        />
+      <div class="row">
+        <h4
+          class="text-center"
+          style="background-color: #5f57eb; color: aliceblue"
+        >
+          Datos Auditor
+        </h4>
+        <div class="col-md-2"></div>
+        <div class="col-md-4">
+          <label for="name">
+            <strong>Fecha: </strong>
+          </label>
+          <input
+            class="form-control"
+            type="date"
+            id="giro"
+            name="giro"
+            placeholder="Fecha"
+            required
+          />
+          <br />
+          <label for="name">
+            <strong>Nombre Auditor: </strong>
+          </label>
+          <input
+            class="form-control"
+            type="text"
+            id="giro"
+            name="giro"
+            placeholder="Nombre del auditor"
+            required
+          />
+          <br />
+          <label for="name">
+            <strong>Nombre del Entrevistado: </strong>
+          </label>
+          <input
+            class="form-control"
+            type="text"
+            id="giro"
+            name="giro"
+            placeholder="Ingrese el nombre de la persona entrevistada"
+            required
+          />
+          <br />
+          <label for="name">
+            <strong>Cargo: </strong>
+          </label>
+          <input
+            class="form-control"
+            type="text"
+            id="giro"
+            name="giro"
+            placeholder="Cargo del Entrevistado"
+            required
+          />
+        </div>
 
-	  </div>
-	  </div>
-      <br />
+        <div class="col-md-4">
+          <br /><br />
+          <br /><br />
 
-      <label for="age">
-        <strong>Edad: </strong>
-      </label>
-      <input
-        class="form-control"
-        type="text"
-        id="age"
-        name="Age"
-        placeholder="Ingresar Edad"
-      />
-      <br />
-
-      <label for="subject">
-        <strong>Seleccionar Tipo de Auditoria : </strong>
-      </label>
-      <select class="form-control" id="subject" name="subject">
-        <option value="Web">Auditoria 1</option>
-        <option value="App">Auditoria 2</option>
-        <option value="Others">Auditoria 3</option>
-      </select>
-      <br />
-
-      <label for="message">
-        <strong>Ingresar Comentario : </strong>
-      </label>
-      <textarea
-        class="form-control"
-        id="message"
-        name="message"
-        placeholder="Enter you message"
-        style="height: 100px"
-      >
-      </textarea>
-      <br />
+          <label for="name">
+            <strong>CI: </strong>
+          </label>
+          <input
+            class="form-control"
+            type="text"
+            id="giro"
+            name="giro"
+            placeholder="CI Auditor"
+            required
+          />
+          <br />
+          <label for="name">
+            <strong>CI: </strong>
+          </label>
+          <input
+            class="form-control"
+            type="text"
+            id="giro"
+            name="giro"
+            placeholder="CI Entrevistado"
+            required
+          />
+        </div>
+      </div>
+      <div class="col-md-2"></div>
     </form>
     <input
-      type="button"
+      type="submit"
       class="btn btn-primary"
       onclick="GeneratePdf();"
       value="Generar Pdf"
@@ -123,7 +453,20 @@
       // Function to GeneratePdf
       function GeneratePdf() {
         var element = document.getElementById("form-print");
-        html2pdf(element);
+        var opt = {
+          margin: 1,
+          filename: "Formulario Auditoria.pdf",
+          // image: { type: "jpeg", quality: 0.98 },
+          // html2canvas: { scale: 2 },
+          // jsPDF: { unit: "in", format: "letter", orientation: "portrait" },
+        };
+
+        // New Promise-based usage:
+      
+
+        // Old monolithic-style usage:
+        html2pdf(element, opt);
+        
       }
     </script>
 
@@ -132,5 +475,6 @@
       integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
       crossorigin="anonymous"
     ></script>
+    
   </body>
 </html>
